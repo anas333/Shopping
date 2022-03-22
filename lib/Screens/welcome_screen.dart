@@ -37,12 +37,14 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
           },
           child: Scaffold(
             body: Container(
+              height: double.infinity,
+              width: double.infinity,
               decoration: const BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage("assets/imgs/fabric2.jpg"),
+                      image: AssetImage("assets/imgs/welcomeScreen2.jpg"),
                       fit: BoxFit.fill,
                       colorFilter: ColorFilter.mode(
-                          Color.fromARGB(255, 42, 104, 119),
+                          Color.fromARGB(255, 17, 191, 235),
                           BlendMode.multiply))),
               child: Stack(children: [
                 Container(
@@ -85,27 +87,6 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     ],
                   ),
                 ),
-                Align(
-                  alignment: Alignment.bottomCenter,
-                  child: Container(
-                    height: size.height * (0.09),
-                    width: 300,
-                    alignment: Alignment.bottomCenter,
-                    margin: EdgeInsets.only(bottom: size.height * (0.065)),
-                    decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(15),
-                        border: Border.all(color: Colors.white, width: 0.7)),
-                    child: const Center(
-                      child: Text(
-                        'Welcome To Our Shop >>',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 18,
-                            fontWeight: FontWeight.w300),
-                      ),
-                    ),
-                  ),
-                )
               ]),
             ),
           ),
