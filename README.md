@@ -10,7 +10,7 @@ And it's a prototype for Shopping APP.
 
 -SplashScreenURL:https://i.ibb.co/yRp6FM0/Screenshot-1647438431.png.
 
--WelcomeScreenURL: https://i.ibb.co/9NPWZ5j/Screenshot-1647438438.png.
+-WelcomeScreenURL: https://i.ibb.co/LYf5k5R/Screenshot-1647939591.png .
 
 -HomePageScreenURL: https://i.ibb.co/tzXwNDR/Screenshot-1647438467.png.
 
