@@ -121,11 +121,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                           color:
                                               Color.fromARGB(255, 42, 104, 119),
                                         ),
-                                        onPressed: () {
-                                          navNewPageService.selectedCart = mine;
-                                          Navigator.pushNamed(
-                                              context, '/Mycart');
-                                        },
+                                        onPressed: () {},
                                       ),
                                     );
                                   } else {
